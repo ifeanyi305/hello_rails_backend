@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
@@ -5,6 +7,6 @@ Rails.application.routes.draw do
     end
   end
 
-  root "greetings#index"
+  root 'greetings#index'
   resources :greetings, only: [:index]
 end
