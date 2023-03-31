@@ -70,6 +70,9 @@ In order to run this project you need:
    <li>gem install rails</li>
  </ul>
 
+## React frontend link
+[hello-react-frontend](https://github.com/ifeanyi305/hello-react-front-end)
+
 ### Setup
 
 Clone this repository to your desired folder:
